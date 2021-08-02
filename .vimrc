@@ -6,7 +6,7 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set autoindent
-set textwidth=80
+" set textwidth=80
 
 syntax on                   " enable syntax highlighting
 set cursorline                  " highlight current line
@@ -22,3 +22,6 @@ highlight Statement ctermfg=72
 highlight Operator ctermfg=73
 highlight LineNr ctermfg=69
 set autochdir
+
+set wildmode=longest,list,full
+set wildmenu
